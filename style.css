@@ -1,0 +1,660 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-image: url(Grey\ Green\ Modern\ Minimalist\ Business\ Zoom\ Virtual\ Background.gif);
+    height: 600px;
+    padding-top: 20px;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 25% 85%, 0% 100%);
+}
+
+.navbar{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 2rem;
+    padding: 0rem 3rem;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.mobile-nav{
+    display: flex;
+}
+
+.mobile-nav i{
+    display: none;
+    font-size: 1.8rem;
+}
+
+.nav-ops a{
+    font-size: 1.2rem;
+    margin: 0 1.5rem;
+    text-decoration: none;
+    transition: all, 0.5s ease-in-out;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    background-color: rgba(215, 215, 215, 0.303);
+    border-radius: 50px;
+}
+
+.nav-ops a:hover{
+    background-color: rgb(75, 140, 142);
+    color: white;
+    border: 2px solid #ccc;
+    transition: all, 0.5s ease-in-out;
+}
+
+.nav-me{
+    background-color: rgba(0, 192, 0, 0.839);
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+    border-radius: 10px;
+    transition: all, 0.5s ease-in-out;
+    cursor: pointer;
+    font-weight: 700;
+}
+.nav-me:hover{
+    background-color: transparent;
+}
+.nav-name{
+    text-align: center;
+    line-height: 17px;
+}
+.nav-name h2{
+    color: rgb(0, 40, 121);
+    font-size: 1.5rem;
+}
+
+.sufian{
+    color: rgb(113, 0, 174);
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.hero-text{
+    width: 50%;
+    font-size: 1rem;
+}
+.hero-text h6{
+    font-size: 1rem;
+    color: rgb(78, 255, 155);
+}
+.hero-text span{
+    color: rgb(128, 0, 0);
+}
+
+.hero-img img{
+    width: 55%;
+}
+
+.cv-btn button{
+    background-color: rgba(0, 192, 0, 0.839);
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all, 0.5s ease-in-out;
+}
+.cv-btn button:hover{
+    background-color: #ccc;
+    transition: all, 0.5s ease-in-out;
+}
+
+.cv-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+    margin-right: 270px;
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+}
+
+.about-img img{
+    width: 450px;
+}
+.about-text{
+    width: 400px;
+    text-align: center;
+}
+
+.about-me h6{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.about-me h2{
+    color: rgb(0, 40, 121);
+    font-weight: 700;
+}
+
+/* .about-me h2 span{
+    color: rgb(87, 0, 133);
+} */
+
+.about-me h1{
+    font-size: 2rem;
+    margin: 15px 0px;
+}
+
+.about-me span{
+    color: rgb(22, 109, 22);
+}
+
+.about-text p{
+    color: #5c5c5c;
+    line-height: 1.2rem;
+}
+
+.about-icon i{
+    color: black;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.about-icon i:hover{
+    color: rgb(0, 81, 255);;
+    transition: all 0.2s ease-in-out;
+}
+
+.service{
+    margin-top: 2rem;
+    background-color: #e4e4e4;
+    padding: 2rem 0rem;
+}
+.service-text{
+    text-align: center;
+}
+
+.service-text h3{
+    color: rgb(1, 71, 15);
+    font-size: 2rem;
+}
+
+.service-text span{
+    color:#139a04;
+}
+.service-text p{
+    font-size: 1.2rem;
+}
+
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.card{
+    width: 25%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    margin: 2rem 0.6rem;
+    padding: 0.5rem 0;
+    border-radius: 30%;
+    transition: all 0.8s ease-in-out;
+    /* height: 150px; */
+}
+
+.card:hover{
+    background-color: rgb(89, 109, 129);
+    color: white;
+    transition: all 0.8s ease-in-out;
+}
+
+.card i{
+    padding: 1rem;
+    background-color: rgb(188, 200, 176);
+    font-size: 1.5rem;
+    position: absolute;
+    top: -30px;
+    left: 41%;
+    border-radius: 30%;
+}
+.card h2{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.freelancer{
+    background-image: url(pngtree-blue-blur-background-.jpg);
+    color: white;
+    text-align: center;
+    height: 250px;
+    display: grid;
+    align-items: center;
+    clip-path: polygon(0% 0%, 100% 0%, 80% 50%, 100% 100%, 0% 100%, 20% 50%);
+}
+
+.freelancer h2{
+    font-size: 3rem;
+    margin:  5rem 0rem 0rem;
+}
+
+.freelancer p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.cv-btn2 button{
+    background-color: rgba(0, 192, 0, 0.839);
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all, 0.5s ease-in-out;
+}
+.cv-btn2 button:hover{
+    background-color: #ccc;
+    transition: all, 0.5s ease-in-out;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contact h3{
+    color: rgb(1, 71, 15);
+    font-size: 2rem;
+}
+
+.contact span{
+    color:#139a04;
+}
+.contact p{
+    font-size: 1.2rem;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 2rem;
+    font-size: 1.5rem;
+}
+
+.contact-icon{
+    width: 22%;
+    background-color: #fff6f6;
+    color:rgb(1, 71, 15);
+    margin: 0 1rem;
+    border-radius: 35%;
+    transition: all 0.5s ease-in-out;
+    padding-bottom: 1rem;
+}
+
+.contact-icon:hover{
+    background-color: transparent;
+    color:rgb(1, 71, 15);
+    transition: all 0.5s ease-in-out;
+}
+
+.white{
+    background-color: transparent;
+}
+.white:hover{
+    background-color: #fff6f6;
+    transition: all 0.5s ease-in-out;
+}
+
+.contact-icon i{
+    font-size: 2rem;
+    background-color: white;
+}
+
+.contact-icon h2{
+    margin: 1rem 0;
+}
+
+.form-control{
+    margin: 1rem;
+}
+.input-form{
+    margin: 1.5rem 0;
+}
+.input2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input2 input{
+    padding-right: 25rem;
+    margin: 0px;
+}
+input,
+textarea{
+    width: 100%;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 1rem;
+    outline-color: rgb(255, 218, 218);
+    border: 1px solid #ccc;
+}
+.submit input{
+    /* display: block; */
+    padding: 0px;
+    margin: 0px;
+    width: 80px;
+    font-size: 1rem;
+    height: 30px;
+}
+
+.submit{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 17px;
+}
+
+textarea{
+    padding-top: 10px;
+}
+/* 
+.sub-box{
+    background-color: rgba(0, 192, 0, 0.839);
+    padding: 5px 10px;
+    margin: 5rem 0 3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all, 0.5s ease-in-out;
+}
+
+.sub-box{
+    text-align: center;
+}
+
+.sub-box:hover{
+    background-color: #ccc;
+    transition: all, 0.5s ease-in-out;
+} */
+
+footer{
+    text-align: center;
+    background-color: #ccccccb5;
+    clip-path: polygon(0% 0%, 100% 0%, 80% 50%, 100% 100%, 0% 100%, 20% 50%);
+}
+
+.footer-text{
+    padding: 30px 0px;
+    font-size: 1.3rem;
+}
+
+.footer-icon{
+    border-top: 2px solid white;
+    margin-top: 5px;
+}
+.footer-icon i{
+    color: black;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 1rem 0.4rem;
+    transition: all 0.2s ease-in-out;
+    border-top: 2px solid white;
+}
+
+.footer-icon i:hover{
+    color: #0051ff;;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-text p{
+    font-size: 1.3rem;
+}
+
+
+
+.active{
+    display: block;
+}
+/* .body-container{
+    position: relative;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1232px){
+    /* .mainnav2{
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        margin-right: 0px;
+    } */
+    .nav-ops a{
+        font-size: 1.1rem;
+        margin: 2px 4px;
+    }
+} 
+@media(max-width:951px){
+    header{
+        width: 100% !important;
+        height: 450px;
+    }
+    .navbar{
+        gap: 1rem;
+    }
+    .nav-ops a{
+        font-size: 0.8rem;
+        margin:1px 1.5px;
+    }
+    .cv-btn{
+        margin-top: 200px;
+    }
+}
+@media(max-width:852px){
+    header{
+        padding-top: 10px;
+    }
+    .nav-ops{
+        position: absolute;
+        right: 0px;
+        width: 100%;
+        height: 390px;
+        top: 60px;
+        text-align: center;
+        background-color: white;
+        display: none;
+    }
+    .nav-ops a{
+        font-size: 2.5rem;
+    }
+    .nav-me{
+        display: none;
+    }
+    .mobile-nav i{
+    display: block;
+    }
+    .active{
+        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-img{
+        display: flex;
+        justify-content: center;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    
+    .about-text{
+     display: flex;
+     justify-content: center;
+     width: auto;
+    }
+    .about-text2{
+        width: 416px;
+    }
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-icon{
+        text-align: center;
+        margin: 1.5rem 0;
+        width: 100%;
+    }
+    .card{
+        width: 40%;
+        height: auto;
+    }
+    .input2{
+        display: flex;
+        flex-direction: column;
+    }
+    .input2 input{
+        padding-right: 0px;
+        padding: 0rem;
+        width: 100%;
+    }
+    .submut input{
+        margin-right: 100px;
+    }
+}
+
+@media(max-width:476px) and (min-width:736px){
+    header{
+        height: 200px;
+    }
+}
+@media(max-width:715px){
+    header{
+        height: 400px;
+    }
+}
+@media(max-width:653px){
+    header{
+        height: 300px;
+    }
+    .cv-btn{
+        margin-top: 100px;
+        /* margin-left: 50px; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 475px){
+    header{
+        width: auto;
+        background-size: cover;
+        height: 300px;
+        padding-top: 5px;
+    }
+    .navbar{
+        height: 40px;
+        margin: 0px;
+        padding: 0 10px;
+    }
+    .mainnav2{
+        gap: 0.5rem;
+    }
+    .cv-btn{
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .cv-btn button{
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+    .about-me{
+        display: grid;
+        flex-direction: column;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .about-text{
+        width: 100%;
+        padding: 0px 5px;
+    }
+    .card{
+        width: 40%;
+        margin-top: 1rem;
+        padding: 0px 5px 5px;
+    }
+
+    .card i{
+        left: 35%;
+        top: -35px;
+    }
+    .freelancer h2{
+        margin: 0px;
+        font-size: 2.5rem;
+        width: 80%;
+        margin-left: 50px;
+    }
+    .freelancer p{
+        width: 70%;
+        margin-left: 70px;
+    }
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-icon{
+        text-align: center;
+        width: auto;
+        margin: 1.5rem 0;
+    }
+    .input2{
+        display: flex;
+        flex-direction: column;
+    }
+    .input2 input{
+        padding-left: 1rem;
+    }
+    .nav-ops{
+        top: 45px;
+    }
+    .about-text2{
+        width: auto;
+    }
+}
